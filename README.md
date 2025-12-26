@@ -17,25 +17,9 @@ Sources → Ingestion → Data Lake (RAW) → Processing → Lakehouse (CURATED)
 - **Data Lakehouse (CURATED)**: Analytics-ready data
 - **Airflow**: Orchestration and monitoring
 
-## Technical Stack
-
-- Apache Airflow
-- Docker
-- Python
-- PostgreSQL
-
-
 ## Pipeline Workflow
 
 **DAG Name**: `bigdata_pipeline_complete`
-
-### Tasks
-
-1. **ingest** - Data ingestion
-2. **validate** - Data validation
-3. **transform** - Data transformation
-4. **load_lakehouse** - Load to Lakehouse
-5. **analytics** - Analytics processing
 
 ### Dependencies
 
@@ -46,7 +30,6 @@ ingest → validate → transform → load_lakehouse → analytics
 ## Starting the Pipeline
 
 ![alt text](doc-screens/image8.png)
-![Docker Compose](doc-screens/image.png)
 
 ## Airflow Web Interface
 
@@ -77,7 +60,7 @@ Visualize task dependencies and execution flow.
 - Red: Failed
 - Blue: Running
 
-![Execution Status](doc-screens/image-7.png)
+![Execution Status](doc-screens/image7.png)
 
 ### 5. Log Inspection
 
