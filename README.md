@@ -1,12 +1,8 @@
 # Big Data Pipeline with Apache Airflow
+A simple Big Data pipeline orchestrated with Apache Airflow, from data ingestion to analytics.
 <div align="center">
   <img src="image.png" alt="Apache Airflow Logo" width="200" height="200">
 </div>
-A simple Big Data pipeline orchestrated with Apache Airflow, from data ingestion to analytics.
-
-## Objective
-
-Build a complete Big Data pipeline with Apache Airflow, covering all stages from ingestion to exploitation, with visual monitoring through the web interface.
 
 ## Pipeline Architecture
 
@@ -18,16 +14,6 @@ Sources → Ingestion → Data Lake (RAW) → Processing → Lakehouse (CURATED)
 - **Processing**: Data cleaning and structuring
 - **Data Lakehouse (CURATED)**: Analytics-ready data
 - **Airflow**: Orchestration and monitoring
-
-## Pipeline Workflow
-
-**DAG Name**: `bigdata_pipeline_complete`
-
-### Dependencies
-
-```
-ingest → validate → transform → load_lakehouse → analytics
-```
 
 ## Starting the Pipeline
 
