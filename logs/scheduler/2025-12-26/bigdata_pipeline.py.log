@@ -345,3 +345,45 @@
 [2025-12-26T10:18:45.902+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:18:45.901+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-12-26T10:18:45.921+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:18:45.920+0000] {dag.py:3823} INFO - Setting next_dagrun for bigdata_pipeline_complete to 2025-12-26 00:00:00+00:00, run_after=2025-12-27 00:00:00+00:00
 [2025-12-26T10:18:45.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigdata_pipeline.py took 0.085 seconds
+[2025-12-26T10:19:15.977+0000] {processor.py:161} INFO - Started process (PID=437) to work on /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:19:15.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigdata_pipeline.py for tasks to queue
+[2025-12-26T10:19:15.978+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:19:15.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:19:15.988+0000] {processor.py:840} INFO - DAG(s) 'bigdata_pipeline_complete' retrieved from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:19:16.010+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:19:16.010+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-26T10:19:16.029+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:19:16.029+0000] {dag.py:3823} INFO - Setting next_dagrun for bigdata_pipeline_complete to 2025-12-26 00:00:00+00:00, run_after=2025-12-27 00:00:00+00:00
+[2025-12-26T10:19:16.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigdata_pipeline.py took 0.070 seconds
+[2025-12-26T10:19:46.156+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:19:46.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigdata_pipeline.py for tasks to queue
+[2025-12-26T10:19:46.157+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:19:46.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:19:46.167+0000] {processor.py:840} INFO - DAG(s) 'bigdata_pipeline_complete' retrieved from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:19:46.188+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:19:46.188+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-26T10:19:46.206+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:19:46.206+0000] {dag.py:3823} INFO - Setting next_dagrun for bigdata_pipeline_complete to 2025-12-26 00:00:00+00:00, run_after=2025-12-27 00:00:00+00:00
+[2025-12-26T10:19:46.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigdata_pipeline.py took 0.075 seconds
+[2025-12-26T10:20:16.271+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:20:16.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigdata_pipeline.py for tasks to queue
+[2025-12-26T10:20:16.272+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:20:16.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:20:16.281+0000] {processor.py:840} INFO - DAG(s) 'bigdata_pipeline_complete' retrieved from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:20:16.303+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:20:16.303+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-26T10:20:16.321+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:20:16.321+0000] {dag.py:3823} INFO - Setting next_dagrun for bigdata_pipeline_complete to 2025-12-26 00:00:00+00:00, run_after=2025-12-27 00:00:00+00:00
+[2025-12-26T10:20:16.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigdata_pipeline.py took 0.067 seconds
+[2025-12-26T10:20:46.449+0000] {processor.py:161} INFO - Started process (PID=452) to work on /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:20:46.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigdata_pipeline.py for tasks to queue
+[2025-12-26T10:20:46.451+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:20:46.450+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:20:46.460+0000] {processor.py:840} INFO - DAG(s) 'bigdata_pipeline_complete' retrieved from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:20:46.481+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:20:46.481+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-26T10:20:46.499+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:20:46.498+0000] {dag.py:3823} INFO - Setting next_dagrun for bigdata_pipeline_complete to 2025-12-26 00:00:00+00:00, run_after=2025-12-27 00:00:00+00:00
+[2025-12-26T10:20:46.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigdata_pipeline.py took 0.067 seconds
+[2025-12-26T10:21:16.572+0000] {processor.py:161} INFO - Started process (PID=457) to work on /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:21:16.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigdata_pipeline.py for tasks to queue
+[2025-12-26T10:21:16.573+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:21:16.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:21:16.582+0000] {processor.py:840} INFO - DAG(s) 'bigdata_pipeline_complete' retrieved from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:21:16.606+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:21:16.606+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-26T10:21:16.623+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:21:16.623+0000] {dag.py:3823} INFO - Setting next_dagrun for bigdata_pipeline_complete to 2025-12-26 00:00:00+00:00, run_after=2025-12-27 00:00:00+00:00
+[2025-12-26T10:21:16.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigdata_pipeline.py took 0.068 seconds
+[2025-12-26T10:21:46.742+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:21:46.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/bigdata_pipeline.py for tasks to queue
+[2025-12-26T10:21:46.745+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:21:46.745+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:21:46.757+0000] {processor.py:840} INFO - DAG(s) 'bigdata_pipeline_complete' retrieved from /opt/airflow/dags/bigdata_pipeline.py
+[2025-12-26T10:21:46.778+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:21:46.778+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-12-26T10:21:46.796+0000] {logging_mixin.py:188} INFO - [2025-12-26T10:21:46.795+0000] {dag.py:3823} INFO - Setting next_dagrun for bigdata_pipeline_complete to 2025-12-26 00:00:00+00:00, run_after=2025-12-27 00:00:00+00:00
+[2025-12-26T10:21:46.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/bigdata_pipeline.py took 0.073 seconds

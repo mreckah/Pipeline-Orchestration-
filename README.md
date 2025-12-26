@@ -1,5 +1,7 @@
 # Big Data Pipeline with Apache Airflow
-
+<div align="center">
+  <img src="image.png" alt="Apache Airflow Logo" width="200" height="200">
+</div>
 A simple Big Data pipeline orchestrated with Apache Airflow, from data ingestion to analytics.
 
 ## Objective
